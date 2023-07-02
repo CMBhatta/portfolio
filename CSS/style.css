@@ -81,7 +81,7 @@ h1{
     line-height: 68px;
     font-weight: 800;
     color: var(--text-white);
-    margin-bottom: 20px;
+    margin-bottom: 20px;    
 }
 h1 span{
     color:var(--primary-color);
