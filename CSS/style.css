@@ -19,7 +19,7 @@
 :root{
     /* Background color */
     --primary-color: #fd4766; 
-    --secondary-color: #0e1525;
+    --secondary-color: #f9f9f9;
     --bg-dark-blue: #091020;
     --bg-white: #fff;
     --gray-color:#c6c9d8bf;
@@ -98,4 +98,37 @@ h3{
     font-weight: 600;
     color: var(--text-white);
     margin-bottom: 19px;
+}
+h6{
+    font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   display: block;
+   color: var(--text-gray);
+   margin-bottom: 20px;
+}
+p{
+    color:var(--text-gray);
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.subtitle{
+    display:inline-block;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 12px;
+    background-color: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input:hover,
+input:focus,
+textPath:hover,
+button{
+    outline: none !important;
+    box-shadow: non !important;
 }
