@@ -12,6 +12,22 @@
         font-size: 20px;
 
     }
+    /* navbar2 */
+    .header-scrolled{
+        height: auto;
+    }
+    .header-wrapper .menu navbar-nav{
+        text-align: center;
+        background-color: var(--bg-dark-blue);
+        padding-bottom: 15px;
+    }
+    .header-wrapper .nav-item .nav-link{
+        margin-top: 15px;
+    }
+    /* banner wrapper */
+    .banner-wrapper{
+        padding: 200px 0;
+    }
 }
 
 @media(max-width:767px){
@@ -26,5 +42,10 @@
     p{
         font-size: 13px;
         line-height: 24px;
+    }
+}
+@media(max-width:340px){
+    h1{
+        font-size: 25px;
     }
 }
