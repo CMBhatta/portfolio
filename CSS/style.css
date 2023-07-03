@@ -23,7 +23,8 @@
     --bg-dark-blue: #091020;
     --bg-white: #fff;
     --gray-color:#c6c9d8bf;
-    --gradient-color: linear-gradient(-224deg, var(var(--primary-color)0, #337dff 100%));
+    --gradient-color: linear-gradient(to right, red, blue); /* Define the gradient color here */
+    /* --gradient-color: linear-gradient(-224deg, var(var(--primary-color)0, #337dff 100%)); */
     --gradient-text: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%, var(var(--primary-color)79.69%));
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='var(--primary-color)', endColorstr= 'var(--secondary-color)', GradientType=1);
     /* text Color */
@@ -121,7 +122,7 @@ p{
     line-height: 18px;
     font-size: 16px;
     margin-bottom: 12px;
-    background-color: var(--gradient-color);
+    background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
